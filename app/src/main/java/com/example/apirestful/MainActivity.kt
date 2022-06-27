@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-   private fun api(view: View)
+    fun api(view: View)
     {
         val txtr= findViewById<TextView>(R.id.respuesta)
         val q= Volley.newRequestQueue(this)
